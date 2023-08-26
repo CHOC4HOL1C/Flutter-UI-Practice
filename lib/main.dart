@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:project_1/Screens/task_board.dart';
 
-//import 'Screens/tip_calculator.dart';
-//import 'Screens/landing_2.dart';
+import 'Screens/tip_calculator.dart';
+import 'Screens/landing_2.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         Theme.of(context).textTheme,
         )
       ),
-      home: const TaskBoard(),
+      home: const TipCalc(),
     );
   }
 }

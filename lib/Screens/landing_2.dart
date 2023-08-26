@@ -16,7 +16,7 @@ class Home extends StatelessWidget {
             children: [
               Container( //first container
                 height: 300,
-                color: Colors.red,
+                //color: Colors.red,
                 child: const Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
@@ -33,13 +33,13 @@ class Home extends StatelessWidget {
               SizedBox(
                 height: 100,
                 child: Container(
-                  color: Colors.orange,
+                  //color: Colors.orange,
                 ),
               ),
               Container( //second container
                 height: 300,
                 margin: EdgeInsets.only(left: 0, top: 0, right: 0, bottom: 0),
-                color: Colors.blue,
+                //color: Colors.blue,
                 padding: EdgeInsets.only(left: 100, top: 123, right: 100, bottom: 100),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
